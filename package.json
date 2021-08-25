@@ -27,7 +27,6 @@
     "start:image": "docker run -p 3001:3000 $npm_package_name:$npm_package_version ",
     "test:coverage": "cd client && npm run test:coverage",
     "sonarqube:scan": "npm run test:coverage && node test/sonarqube-scan"
-  
   },
   "author": "IBM Garage for Cloud",
   "license": "ISC",
